@@ -8,6 +8,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Login from './src/screens/Auth/Login';
 import Signup from './src/screens/Auth/Signup';
 import Home from './src/screens/Food/Home';
+import FoodSection from './src/screens/Food/FoodSection';
 
 const Stack = createNativeStackNavigator();
 const Drawer = createDrawerNavigator();
@@ -27,6 +28,7 @@ const DrawerScreens = () => {
       <Drawer.Screen name="Home" component={Home} />
       <Drawer.Screen name="Login" component={Login} />
         <Drawer.Screen name="Signup" component={Signup} />
+        <Drawer.Screen name="FoodSection" component={FoodSection}/>
     </Drawer.Navigator>
   );
 };
