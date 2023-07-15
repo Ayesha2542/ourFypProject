@@ -133,5 +133,4 @@ const Login= ({navigation}) => {
   );
 };
 
-export default Login;
-// transform: [{ rotate: '45deg' }]
+export default Login
