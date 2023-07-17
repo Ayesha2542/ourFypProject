@@ -18,10 +18,10 @@ import Fontisto from 'react-native-vector-icons/Fontisto';
 import {widthPercentageToDP as wp} from 'react-native-responsive-screen';
 import {heightPercentageToDP as hp} from 'react-native-responsive-screen';
 import AppColors from '../../assets/colors/AppColors';
-import ContainerStyles from '../../assets/styles/ContainerStyles';
-import ImageStyles from '../../assets/styles/ImageStyles';
-import TextStyles from '../../assets/styles/TextStyles';
-import IconStyles from '../../assets/styles/IconStyles';
+import ContainerStyles from '../../assets/Styles/ContainerStyles';
+import ImageStyles from '../../assets/Styles/ImageStyles';
+import TextStyles from '../../assets/Styles/TextStyles';
+import IconStyles from '../../assets/Styles/IconStyles';
 const Signup = ({navigation}) => {
   const [userName, setUserName] = useState('');
   const [userEmail, setUserEmail] = useState('');
@@ -127,7 +127,7 @@ const Signup = ({navigation}) => {
           </TouchableOpacity>
         </View>
         <Image
-          source={require('../../assets/images/SignUp1.png')} // Specify the source of the image
+          source={require('../../assets/Images/SignUp1.png')} // Specify the source of the image
           style={[ImageStyles.signupImage]} // Set the desired width and height of the image
         />
       </View>
